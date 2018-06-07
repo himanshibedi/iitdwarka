@@ -1,0 +1,155 @@
+body{
+margin: 0px;
+}
+.container{
+    margin-left: 20px;
+}
+#top_bar{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: #333333;
+}
+.top_bar ul{
+    margin: 8px 20px;    
+}
+.top_bar ul li{
+    margin: 4px 20px;
+    list-style: none;
+    display: inline-block;
+}
+.top_bar ul li a{
+    color: lightgrey;
+    font-size: 18px;
+    text-decoration: none;
+}
+.top_bar input{
+    margin-left: 35px;
+}
+.top_bar i{
+    color: white;
+    margin-left: 10px;
+}
+.top_bar ul :last-child a{
+    padding: 8px 15px;
+    margin-left: 450px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    border-color: white;
+}
+
+#middle_bar{
+    width: 100%;
+    background-color: #800000;
+    border-top: 1px solid #9a0000;
+    border-bottom: 1px solid #670000;
+}
+.middle_1 img{
+    width: 7%;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.middle_1 ul li{
+    list-style: none;
+}
+.middle_2 ul{
+    position: absolute;
+    top: 14%;
+    left: 22%;
+}
+.middle_2 ul li{
+    list-style: none;
+    display: inline-block;
+}
+.middle_2 ul li a{
+    text-decoration: none;
+    font-size: 48px;
+    color: white;
+}
+.middle_3 h6{
+    font-size: 18px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    top: 29%;
+    left: 34.5%;
+    color: white;
+    position: absolute;
+}
+.middle_4 h6{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    top: 25%;
+    left: 32%;
+    color: white;
+    position: absolute;
+}
+
+#header{
+    width: 100%;
+    background-color: #800000;
+    border-top: 1px solid #9a0000;
+    border-bottom: 1px solid #670000;
+}
+.header ul{
+    margin: 5px 80px;
+    padding-bottom: 3px;
+}
+.header ul li{
+    margin: 5px 25px;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.header ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.dropdown {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    display: none;
+}
+.dropdown ul li {
+    display: block;
+    margin: 0px;
+    width: 100%;
+}
+.dropdown ul li a{
+    color: black;
+}
+ul li:hover .dropdown {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+}
+.bvoc_1 h2{
+    font-size: 40px;
+}
+.bvoc_2 h3{
+    font-size: 30px;
+}
+.bvoc_3{
+
+}
+.bvoc_4{
+
+}
+.bvoc_5{
+
+}
+.bvoc_6{
+    display: flex;
+    margin: 10px 60px;
+}
